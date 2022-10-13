@@ -473,8 +473,8 @@ Library.flags["Aimbot Active"] = false
 
 local AimbotTab = Library:CreateWindow("Made By Albara#9123")
 AimbotTab:AddToggle({text = "Enable Aimbot", flag = "Aimbot Enabled"})
-AimbotTab:AddToggle({text = "Enable FOV", flag = "Aimbot Use FOV"})
 AimbotTab:AddToggle({text = "Team Check", flag = "Aimbot Team Check"})
+AimbotTab:AddToggle({text = "Enable FOV", flag = "Aimbot Use FOV"})
 AimbotTab:AddBind({
     text = "Aimbot KEY",
     flag = "Aimbot Bind",
@@ -494,7 +494,7 @@ AimbotTab:AddSlider({
 })
 
 AimbotTab:AddSlider({
-    text = "Smoothing",
+    text = "Aim Speed",
     flag = "Aimbot Smoothing",
     min = 1,
     max = 5,
