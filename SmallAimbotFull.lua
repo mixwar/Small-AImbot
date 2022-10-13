@@ -37,8 +37,8 @@ local GetModuleEnvironment = getmenv
 local GetScriptEnvironment = getsenv
 local GetRobloxEnvironment = getrenv
 
-local CIELUV = loadstring(game:HttpGet("https://raw.githubusercontent.com/coastss/releases/main/cieluv_color_lerp.lua"))()
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/edJT9EGX"))()
+local CIELUV = loadstring(game:HttpGet("https://raw.githubusercontent.com/mixwar/Small-AImbot/main/SmallAimbotLink1.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mixwar/Small-AImbot/main/SmallAimbotLink2.lua"))()
 local HealthbarLerp = CIELUV:Lerp(Color3.fromRGB(255, 0, 0), Color3.fromRGB(0, 255, 0))
 
 local Visuals = {Players = {}} do
